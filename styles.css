@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+  background-color: #000;
+  font-family: "Courier New", monospace;
+  color: #0f0;
+  padding: 0;
+  margin: 0;
+}
+
+.terminal {
+  padding: 10px;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* Add a lot of useless CSS rules */
+
+#flagfound1 {
+  color: #fff;
+  padding: 0cap;
+  margin: 100;
+}
+
+.randomClass1 {
+  font-size: 14px;
+  box-sizing: border-box;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+#flagfound2 {
+  background-color: #fff;
+}
+
+.randomClass2 {
+  margin: 10px;
+}
+
+#flagfound3 {
+  padding: 5px;
+  box-sizing: border-box;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.totallyFLAG {
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* ... You can add as many as you want ... */
+
+#cssFlag::after {
+  content: "FLAG{css_flag}";
+  display: none;
+  box-sizing: border-box;
+  overflow: auto;
+  white-space: pre-wrap;
+  font-size: 20px;
+  line-height: 24px;
+}
