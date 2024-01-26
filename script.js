@@ -50,7 +50,7 @@ $(function () {
   });
 
   printLine("Welcome to my hacker terminal!");
-  printLine('Type "flag" to get a random flag, or "hello" to say hello.');
+  printLine('Type "flag" to get the flag, or "hello" to say hello.');
   printLine(inputLine);
   const actualFlag = "FLAG{Goes here}";
 });
