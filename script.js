@@ -75,5 +75,5 @@ $(function () {
     'Type "flag" to get the flag, "hello" to say hello or "clear" to clear the terminal.'
   );
   printLine(inputLine);
-  const actualFlag = "FLAG{Goes here}";
+  const actualFlag = "FLAG{js_flag}"; // The actual flag goes here
 });
